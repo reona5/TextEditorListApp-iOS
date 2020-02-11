@@ -12,7 +12,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(editorArray) { item in
-                EditorRow(editor: item)
+                NavigationLink(destination: EditorDetailView(editor: item)) {
+                    EditorRow(editor: item)
+                }
             }
         .navigationBarTitle("Text Editor List")
         }

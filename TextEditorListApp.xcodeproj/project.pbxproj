@@ -15,6 +15,7 @@
 		358FD09923F118D800F19987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358FD09723F118D800F19987 /* LaunchScreen.storyboard */; };
 		358FD0A523F155BA00F19987 /* EditorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD0A423F155BA00F19987 /* EditorData.swift */; };
 		358FD0A723F159D500F19987 /* EditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD0A623F159D500F19987 /* EditorRow.swift */; };
+		358FD0A923F176E000F19987 /* EditorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD0A823F176E000F19987 /* EditorDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		358FD09A23F118D800F19987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358FD0A423F155BA00F19987 /* EditorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorData.swift; sourceTree = SOURCE_ROOT; };
 		358FD0A623F159D500F19987 /* EditorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorRow.swift; sourceTree = "<group>"; };
+		358FD0A823F176E000F19987 /* EditorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				358FD0A423F155BA00F19987 /* EditorData.swift */,
+				358FD0A823F176E000F19987 /* EditorDetailView.swift */,
 				358FD0A623F159D500F19987 /* EditorRow.swift */,
 				358FD08C23F118D600F19987 /* AppDelegate.swift */,
 				358FD08E23F118D600F19987 /* SceneDelegate.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358FD0A923F176E000F19987 /* EditorDetailView.swift in Sources */,
 				358FD0A523F155BA00F19987 /* EditorData.swift in Sources */,
 				358FD08D23F118D600F19987 /* AppDelegate.swift in Sources */,
 				358FD0A723F159D500F19987 /* EditorRow.swift in Sources */,
